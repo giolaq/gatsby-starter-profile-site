@@ -3,45 +3,44 @@ import React from "react"
 import {
   FaTwitter as Twitter,
   FaGithub as Github,
-  FaYoutube as Youtube,
-  FaInstagram as Insta,
   FaEnvelope as Mail,
+  FaMedium as Medium,
+  FaStackOverflow as StackOverflow,
+  FaLinkedin as Linkedin,
 } from "react-icons/fa"
 
 export default function info() {
   return (
     <div className="container">
       <div className="my-5"></div>
-      <div className="display-3" style={{ color: "#FF8A00" }}>
+      <div className="display-3" style={{ color: "#3DDC84" }}>
         <span style = {{color : "white"}}>Hello, I'm</span> <br />
-        Sumanth.
+        Giovanni Laquidara.
       </div>
-      <div className="h1 code mt-4 mb-3">async {"{"}</div>
+      <div className="h1 code mt-4 mb-3">launch {"{"}</div>
       <div className="text-muted mx-5 my-4 h3 text-justify info">
-        A Passionate Front-end Developer, UI/UX Enthusiast, Android Geek and Web
-        Developer.
-        <br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et.
+        A Software Engineer passionate about Android and VR/AR.
+        <br /> Daje!
       </div>
       <div className="h1 code mt-2 mb-3">{"}"}</div>
       <div className="h1 mt-5">
-        <a className="mr-5 icon" href="https://twitter.com/Mr404Found">
+        <a className="mr-5 icon" href="https://twitter.com/joaolaq">
           <Twitter />
         </a>
-        <a className="mr-5 icon" href="https://instagram.com/sumanth.zero7">
-          <Insta />
-        </a>
-        <a className="mr-5 icon" href="https://github.com/Mr404Found">
+        <a className="mr-5 icon" href="https://github.com/joaobiriba">
           <Github />
-        </a>
-        <a
-          className="mr-5 icon"
-          href="https://www.youtube.com/channel/UCw0FDIL-HpcfzEZrjcQwhMQ"
-        >
-          <Youtube />
-        </a>
-        <a className="mr-5 icon" href="mailto://contactmr404here@gmail.com">
+          </a>
+        <a className="mr-5 icon" href="mailto://glaquidara@laquysoft.com">
           <Mail />
+        </a>
+        <a className="mr-5 icon" href="https://medium.com/@joaolaq">
+          <Medium />
+        </a>
+        <a className="mr-5 icon" href="https://stackoverflow.com/users/1759687/joaobiriba">
+          <StackOverflow />
+        </a>
+        <a className="mr-5 icon" href="https://www.linkedin.com/in/glaquidara/">
+          <Linkedin />
         </a>
       </div>
     </div>
