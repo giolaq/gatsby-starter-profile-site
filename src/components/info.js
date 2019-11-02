@@ -13,12 +13,12 @@ export default function info() {
   return (
     <div className="container">
       <div className="my-5"></div>
-      <div className="display-3" style={{ color: "#3DDC84" }}>
+      <div className="display-4" style={{ color: "#3DDC84" }}>
         <span style = {{color : "white"}}>Hello, I'm</span> <br />
         Giovanni Laquidara.
       </div>
       <div className="h1 code mt-4 mb-3">launch {"{"}</div>
-      <div className="text-muted mx-5 my-4 h3 text-justify info">
+      <div className="mx-5 my-4 h3 text-justify info">
         A Software Engineer passionate about Android and VR/AR.
         <br /> Daje!
       </div>
@@ -30,7 +30,11 @@ export default function info() {
         <a className="mr-5 icon" href="https://github.com/joaobiriba">
           <Github />
           </a>
+<<<<<<< HEAD
         <a className="mr-5 icon" href="mailto://glaquidara@gmail.com">
+=======
+        <a className="mr-5 icon" href="mailto:glaquidara@laquysoft.com">
+>>>>>>> 0ae8a75fdc46013d8edf600a71d60004eb9aeb92
           <Mail />
         </a>
         <a className="mr-5 icon" href="https://medium.com/@joaolaq">
