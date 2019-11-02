@@ -30,7 +30,7 @@ export default function info() {
         <a className="mr-5 icon" href="https://github.com/joaobiriba">
           <Github />
           </a>
-        <a className="mr-5 icon" href="mailto://glaquidara@laquysoft.com">
+        <a className="mr-5 icon" href="mailto://glaquidara@gmail.com">
           <Mail />
         </a>
         <a className="mr-5 icon" href="https://medium.com/@joaolaq">
